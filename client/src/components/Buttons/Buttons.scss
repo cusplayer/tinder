@@ -1,0 +1,36 @@
+.buttons {
+  position: fixed;
+  bottom: 5vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+  button {
+    padding: 2vw;
+  }
+
+  &__repeat {
+    color: #f5b748 !important;
+  }
+
+  &__left {
+    color: #ec5e6f !important;
+  }
+
+  &__star {
+    color: #62b4f9 !important;
+  }
+
+  &__right {
+    color: #76e2b3 !important;
+  }
+
+  &__lightning {
+    color: #915dd1 !important;
+  }
+
+  .MuiIconButton-root {
+    background-color: #fff;
+    box-shadow: 0 10px 53px 0 rgba(0, 0, 0, 0.3) !important;
+  }
+}
